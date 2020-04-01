@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+kafka:
+  topic: product_details_search
+  bootstrap-servers: localhost:9092
+
+elkApi:
+  url: http://localhost:8080
